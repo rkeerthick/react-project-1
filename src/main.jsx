@@ -1,6 +1,9 @@
 /* eslint-disable react/no-deprecated */ 
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import Header from './Header'
+import Footer from './Footer'
+import MainContent  from './MainContent'
 
 function navigation1() {
     return (
@@ -31,50 +34,50 @@ const navigation2 = (
     </nav>
 )
 
-function Header() {
-    return (
-        <header>
-            <nav>
-                <img src='/public/react_image.png' width={"40px"}></img>
-                <ul className='nav-items '>
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
+// function Header() {
+//     return (
+//         <header>
+//             <nav>
+//                 <img src='/public/react_image.png' width={"40px"}></img>
+//                 <ul className='nav-items '>
+//                     <li>Pricing</li>
+//                     <li>About</li>
+//                     <li>Contact</li>
+//                 </ul>
+//             </nav>
+//         </header>
+//     )
+// }
 
-function Footer() {
-    return (
-        <footer>
-            <small>All Rights.</small>
-        </footer>
-    )
-}
+// function Footer() {
+//     return (
+//         <footer>
+//             <small>All Rights.</small>
+//         </footer>
+//     )
+// }
 
-function MainContent() {
-    return (
-        <main>
-            <h1>Fun Fact about react</h1>
-            <ul>
-                <li>was first released in 2013</li>
-                <li>was created by Jordan Walke</li>
-                <li>was well over 100k stars on github</li>
-                <li>is maintained by facebook</li>
-                <li>powers thousands of enterprise app, including mobile apps</li>
-            </ul>
-        </main>
-    )
-}
+
+// function MainContent() {
+//     return (
+//         <main>
+//             <h1>Fun Fact about react</h1>
+//             <ul>
+//                 <li>was first released in 2013</li>
+//                 <li>was created by Jordan Walke</li>
+//                 <li>was well over 100k stars on github</li>
+//                 <li>is maintained by facebook</li>
+//                 <li>powers thousands of enterprise app, including mobile apps</li>
+//             </ul>
+//         </main>
+//     )
+// }
 
 function CustomPage() {
     return (
         <div className='body'>
             <Header />
             <MainContent />
-            <Footer />
         </div>
         
     )

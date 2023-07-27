@@ -11,10 +11,19 @@ nav {
     align-items: center;
     box-shadow: 0px 5px 20px rgb(204, 203, 203);
     padding: 0px 20px;
+    color: rgb(0, 208, 255);
+    background-color: rgb(35, 35, 35);
+}
+
+nav h1 {
+    margin-right: auto;
 }
 
 main {
     padding: 20px;
+    color: white;
+    background-color:  rgb(46, 44, 44);
+    line-height: 2rem;
 }
 
 footer {
@@ -24,7 +33,7 @@ footer {
 }
 
 img {
-    margin-right: auto;
+    padding: 0px 10px;
 }
 
 .nav-items {
@@ -32,7 +41,8 @@ img {
     justify-content: center;
 }
 
-.nav-items li {
-    list-style-type: none;
+li {
+    list-style: rgb(0, 208, 255);
     padding: 10px;
+
 }
